@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #414141, #040404);
+}
+
+.calculator {
+  background-color: #929292;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#result, #number {
+  background-color: #f4f4;
+}
+
+#result {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: right;
+}
+
+#number {
+  font-size: 25px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+.button-active {
+  background-color: #CCC;
+}
+
+.calculator .first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calculator .second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calculator .third-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calculator .fourth-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calculator .fourth-row .button:nth-child(4) {
+  float: right;
+}
+#enter-button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  float: right;
+}
